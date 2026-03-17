@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>GIS Portfolio – Wildfire Exposure Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; }
+    h1 { margin-bottom: 6px; }
+    .meta { color: #444; margin-top: 0; }
+    a { display: inline-block; margin-right: 12px; }
+    .box { background: #f7f7f7; padding: 12px 14px; border-radius: 8px; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Wildfire Exposure Near Utility Corridors (500m)</h1>
+  <p class="meta">Sonoma County (main) with Alameda County inset • QGIS analysis</p>
+
+  <p>
+    <a href="./Wildfire_Exposure_Sonoma_Alameda.pdf">Download PDF map</a>
+  </p>
+
+  <div class="box">
+    <strong>Key metrics</strong><br/>
+    Sonoma overlap area: 261.31 sq km<br/>
+    Sonoma line within wildfire perimeters: 235.17 mi<br/>
+    Alameda overlap area: 56.46 sq km<br/>
+    Alameda line within wildfire perimeters: 58.68 mi
+  </div>
+
+  <p style="margin-top:16px; color:#555;">
+    Sources: CAL FIRE fire perimeters; OpenStreetMap power lines. Projection: EPSG:3310.
+  </p>
+</body>
+</html>
