@@ -1,0 +1,7 @@
+*.tif
+dataset/
+*.pth
+__pycache__/
+*.pyc
+.DS_Store
+aligned.tif
