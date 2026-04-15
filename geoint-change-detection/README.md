@@ -16,6 +16,17 @@ The U-Net model achieved **0.900 IoU and 0.947 F1** on held-out test patches —
 
 ---
 
+## Visualizations
+
+**Training Curves — Loss, IoU, F1**
+![Training Curves](assets/training_curves.png)
+
+**U-Net Test Predictions**
+![U-Net Predictions](assets/unet_predictions.png)
+
+**Full Scene Inference — Bay Area**
+![Inference Map](assets/inference_map.png)
+
 ## What This Project Does
 
 The pipeline detects areas where land cover changed between 2018 and 2024 across the San Francisco Bay Area. It flags vegetation loss as a proxy for urban expansion, development, or disturbance events such as wildfire.
